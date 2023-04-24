@@ -1,9 +1,10 @@
-name: firstworkflow
-on: 
+name: CI workflow
+
+on:
   push:
-    branches: 
-      - 'main'
+    branches: [ "main" ]
   pull_request:
+    branches: [ "main" ]
 
 jobs:
   build:
